@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-dark" style="background-color: #FFC833;">
+        <div class="container">
+            <a href="/" class="navbar-brand">
+            <img src="{% static 'logo.png' %}" alt="" width="60" height="40">
+            Face Recognition
+            </a>
+
+        </div>
+    </nav>
+    <!-- body -->
+    <div class="container">
+        <br>
+        <h1 class="display-11" align="center">Facial Analysis</h1>
+        <br>
+        
+        <form action="#" method="POST" enctype="multipart/form-data">
+            
+            {% csrf_token %}
+            
+            <div class="input-group">
+                <label for="{{ form.image.id_for_label }}"></label>
+                {{ form.image }}
+                <input type="submit" value="Display Image" class="btn btn-outline-secondary">
+
+            </div>
+
+            
+        
+        </form>
+
+
+        {% if upload %}
+        <br><br>
+
+        <div class="row">
+            <div class="col">
+            
+                <img class="img-fluid" src="/media/ml_output/process.jpg" alt="">
+            </div>
+
+            <div class="col">
+                  
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <td>Face Image</td>
+                                {% for c in results.count  %}
+                                    <td>
+                                        <img class="img-fluid" src="/media/ml_output/roi_{{ c }}.jpg" alt="">
+                                    </td>
+                                {% endfor %}
+    
+                        </tr>
+    
+                    </thead>
+                
+                    <tr>
+                        <td>Face Detection Score</td>
+                        {% for detect_score in results.face_detect_score  %}
+                            <td>{{ detect_score }}</td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        {% for name in results.face_name  %}
+                            <td>{{ name }}</td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <td>Face Score</td>
+                        {% for name_score in results.face_name_score  %}
+                            <td>{{ name_score }}</td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <td>Emotion</td>
+                        {% for emotion in results.emotion_name  %}
+                            <td>{{ emotion }}</td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <td>Emotion Score</td>
+                        {% for emotion_score in results.emotion_name_score  %}
+                            <td>{{ emotion_score }}</td>
+                        {% endfor %}
+                    </tr>
+    
+                </table>
+            
+            {% endif %}
+
+            </div>
+        </div>
+       
+        <hr>
+        <div class="container">
+            <footer>
+                <h3>About</h3>
+                <p>This is a Face Recognition Application which can detect the faces and emotions of 15 Celeberties on which the model was trained.</p>
+                   <style>
+                    table {
+                      font-family: arial, sans-serif;
+                      border-collapse: collapse;
+                      width: 100%;
+                    }
+                    
+                    td, th {
+                      border: 1px solid #dddddd;
+                      text-align: left;
+                      padding: 8px;
+                    }
+                    
+                    tr:nth-child(even) {
+                      background-color: #dddddd;
+                    }
+                    </style>
+                   <table>
+                    
+                    <tr>
+                      <td>1. Aamir Khan</td>
+                      <td>2. Angelina Jolie</td>
+                      <td>3. Barack Obama</td>
+                    </tr>
+                    <tr>
+                      <td>4. Cristiano Ronaldo</td>
+                      <td>5. Donald Trump</td>
+                      <td>6. Elon Musk</td>
+                    </tr>
+                    <tr>
+                      <td>7. Joe Biden</td>
+                      <td>8. Leonardo DiCaprio</td>
+                      <td>9. Lionel Messi</td>
+                    </tr>
+                    <tr>
+                      <td>10. Robert Downey Jr</td>
+                      <td>11. Roger Federed</td>
+                      <td>12. Sachin Tendulkar</td>
+                    </tr>
+                    <tr>
+                      <td>13. Salman Khan</td>
+                      <td>14. Scarlett Johansson</td>
+                      <td>15. Tom Curise</td>
+                    </tr>
+                    
+                  </table>
+                  
+            </footer>
+
+        </div>
+    
+    
+</body>
+</html>
