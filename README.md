@@ -81,3 +81,7 @@ https://towardsdatascience.com/how-voting-classifiers-work-f1c8e41d30ff
    
   </tr>
 </table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
