@@ -47,3 +47,16 @@ Dataset Link: https://drive.google.com/file/d/197XCxvL1y8lHnGH8iVpffxl51ulN6Ql-/
 ## Result
 
 ![repo2](https://user-images.githubusercontent.com/64823050/127895916-5254f409-3e56-4541-9308-fd07874e7d7c.jpg)
+
+
+## References
+
+https://towardsdatascience.com/understanding-face-detection-with-the-viola-jones-object-detection-framework-c55cc2a9da14
+
+https://scikit-learn.org/stable/user_guide.html
+
+https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-IJCV-01.pdf
+
+https://github.com/opencv/opencv/tree/master/data/haarcascades
+
+https://towardsdatascience.com/how-voting-classifiers-work-f1c8e41d30ff
