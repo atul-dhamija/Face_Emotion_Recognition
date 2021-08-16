@@ -65,8 +65,8 @@ https://github.com/opencv/opencv/tree/master/data/haarcascades
 
 https://towardsdatascience.com/how-voting-classifiers-work-f1c8e41d30ff
 
-
-
-
+<a href = "https://github.com/Atul-Dhamija/Python/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo = Atul-Dhamija/Face_Emotion_Recognition"/>
+</a>
 
 
