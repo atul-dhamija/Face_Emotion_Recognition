@@ -1,9 +1,11 @@
-# FACE AND EMOTION RECOGNITION WEBAPP
+# Face and Emotion Recognition Webapp
 
 This project was aimed to deploy a *deep learning* application to recognise person's face and emotion.
 
 
-## Modules used
+## Dependencies
+
+You can install Python dependencies using ``` pip install -r requirements.txt ``` , and it should just work. if you want to install package manually, here's a list:
 
  - Python 
  - Scikit Learn
