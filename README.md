@@ -30,15 +30,15 @@ Emotion dataset link: https://www.kaggle.com/debanga/facial-expression-recogniti
 ## Approach
 
 
-### Data Preprocessing
+### Step 1. Data Preprocessing
 ![repo6](https://user-images.githubusercontent.com/64823050/129591559-2dd90672-c5f7-4b17-b31d-384ade458f91.jpg)
 
 
-### Face and Emotion Recognition Model
+### Step 2. Face and Emotion Recognition Model
 ![Pipeline for model](https://user-images.githubusercontent.com/64823050/127895363-ac056917-de12-4a7d-8098-fe39f23943aa.png)
 
 
-### WebApp Framework
+### Step 3. WebApp Framework
 ![repo7](https://user-images.githubusercontent.com/64823050/129591794-b4fe2d45-27bf-4167-9be8-147a05c29cf7.jpg)
 
 ## Deployed Web Application
