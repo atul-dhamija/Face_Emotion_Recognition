@@ -37,6 +37,12 @@ Dataset Link: https://drive.google.com/file/d/197XCxvL1y8lHnGH8iVpffxl51ulN6Ql-/
 ### WebApp Framework
 ![repo7](https://user-images.githubusercontent.com/64823050/129591794-b4fe2d45-27bf-4167-9be8-147a05c29cf7.jpg)
 
+## Deployed Web Application
+
+![repo8](https://user-images.githubusercontent.com/64823050/129592380-a2bb15ef-7301-4fc2-bf33-d46f39b8e4ae.jpg)
+
+### Link: https://face-emotion-analysis.herokuapp.com/
+
 
 ## Result
 
