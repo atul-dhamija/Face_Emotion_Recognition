@@ -25,7 +25,12 @@ Dataset Link: https://drive.google.com/file/d/197XCxvL1y8lHnGH8iVpffxl51ulN6Ql-/
 
 ## Approach
 
+![repo6](https://user-images.githubusercontent.com/64823050/129591161-76a12b8b-66be-4d33-abdc-0a09154cd142.jpg)
+
 ![Pipeline for model](https://user-images.githubusercontent.com/64823050/127895363-ac056917-de12-4a7d-8098-fe39f23943aa.png)
+
+![repo7](https://user-images.githubusercontent.com/64823050/129591248-2711156e-2fc6-4cba-96d3-a3863b68bc27.jpg)
+
 
 ## Result
 
