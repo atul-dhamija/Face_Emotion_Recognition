@@ -67,21 +67,6 @@ https://towardsdatascience.com/how-voting-classifiers-work-f1c8e41d30ff
 
 
 
-## Contributors ✨
 
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    
-    <td align="center"><a href="https://github.com/Atul-Dhamija"><img src="https://avatars0.githubusercontent.com/u/46792739?s=64&v=4" width="100px;" alt=""/><br /><sub><b> Atul Dhamjia </b></sub></a><br /><a href="" title="Code">💻</a><a href="" title="Design">🎨</a><a href="">📦</a></td>
-    <td align="center"><a href="https://github.com/utkarsh8273"><img src="https://avatars3.githubusercontent.com/u/57529264?s=64&v=4" width="100px;" alt=""/><br /><sub><b>Utkarsh Vats </b></sub></a><br /><a href="" title="Documentation">📖</a> <a href="" title="Design">🎨</a><a href="" title="Code">💻</a></td>
-   
-  </tr>
-</table>
 
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
