@@ -55,12 +55,12 @@ The dataset consist of images of 15 celebrities, 100 for each for face recogniti
 
 ## References
 
-https://towardsdatascience.com/understanding-face-detection-with-the-viola-jones-object-detection-framework-c55cc2a9da14
+[Viola Jones Documentation](https://towardsdatascience.com/understanding-face-detection-with-the-viola-jones-object-detection-framework-c55cc2a9da14)
 
-https://scikit-learn.org/stable/user_guide.html
+[Sklearn](https://scikit-learn.org/stable/user_guide.html)
 
-https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-IJCV-01.pdf
+[Viola Jones Research Paper](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-IJCV-01.pdf)
 
-https://github.com/opencv/opencv/tree/master/data/haarcascades
+[Cascade Classifier](https://github.com/opencv/opencv/tree/master/data/haarcascades)
 
-https://towardsdatascience.com/how-voting-classifiers-work-f1c8e41d30ff
+[Voting Classifier](https://towardsdatascience.com/how-voting-classifiers-work-f1c8e41d30ff)
