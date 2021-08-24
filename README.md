@@ -45,7 +45,7 @@ The dataset consist of images of 15 celebrities, 100 for each for face recogniti
 
 ![repo8](https://user-images.githubusercontent.com/64823050/129592380-a2bb15ef-7301-4fc2-bf33-d46f39b8e4ae.jpg)
 
-### Link: https://face-emotion-analysis.herokuapp.com/
+### [Link:](https://face-emotion-analysis.herokuapp.com/)
 
 
 ## Result
